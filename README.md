@@ -52,6 +52,6 @@ In some controller
 
 ## Sending email ##
 
-```send($from,$to,$subject,$htmlBody)``` Send email
+```send($from,$to,$subject,$htmlBody)``` Send email. Return ```true``` on success.
 
 ```getStatus()``` Get status of last request.
