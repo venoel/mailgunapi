@@ -1,12 +1,13 @@
 # Mailgun API for Yii 1.x #
 
 ## Introduction ##
+
+This simple Yii extension allow send email in HTML format through Mailgun API. It is easy switch between sandbox and real domain.
+
 Yii is a fast, secure, and efficient PHP framework. https://www.yiiframework.com/
 
 Mailgun - Powerful APIs that enable you to send, receive and track email effortlessly. Powerful APIs that enable you to send,
 receive and track email effortlessly. https://www.mailgun.com/
-
-This simple Yii extension allow send email in HTML format through Mailgun API. It is easy switch between sandbox and real domain.
 
 ## Usage ##
 
