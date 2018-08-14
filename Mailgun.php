@@ -55,7 +55,12 @@ class Mailgun extends CApplicationComponent{
 	 * @param string $body E-mail body with HTML content.
 	 */
 	public function send($from,$to,$subject,$body){
-		$data = sprintf('from=%s&to=%s&subject=%s&html=%s',$from,$to,$subject,$body);
+		$data = array(
+			'from' => $from,
+			'to' => $to,
+			'subject' => $subject,
+			'html' => $body
+		);
 		$headers = array(
 			"Authorization: Basic " . base64_encode('api:'.$this->apikey)
 		);
